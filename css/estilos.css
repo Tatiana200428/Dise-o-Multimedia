@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.encabezado{
+  background: #24282B;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  border-bottom: 5px solid #1293D4;
+}
+
+.encabezado h2{
+  color: white;
+}
+
+.encabezado a{
+  text-decoration: none;
+  color: white;
+  margin: 15px;
+}
+
+.azul{
+  color: #1293D4;
+}
+
+.centro{
+  background-image: url(/images/cabecera.jpg);
+  display: flex;
+  width: 100%;
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.central{
+  background: #24282B;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+.login{
+  padding: 8px;
+}
+
+.buscador{
+  background: #E8491D;
+  padding: 10px;
+  border: none;
+  color: white;
+}
+
+.inferior{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+.cuadro{
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.vintaje img{
+  width:100%;
+  height: auto;
+  display: block;
+  align-self: end;
+}
+
+footer{
+  background: #1293D4;
+  display: block;
+  font-size: 20px;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.title{
+  margin-top: 15px;
+}
+
+.title h1{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.title p{
+  font-size: 20px;
+}
+
+/* NOSOTROS */
+.cuadros{
+  display: flex;
+  flex-direction: row;
+  padding: 60px 80px;
+  width: auto;
+}
+
+.onecuadro{
+  width: 70%;
+  padding-left: 90px;
+  margin-right: 35px;
+}
+
+
+.onecuadro h2{
+  margin-bottom: 10px;
+}
+
+.lorem2{
+  background: #24282B;
+  margin-top: 20px;
+  color: white;
+  padding: 15px;
+}
+
+.onecuadro img{
+ padding: 20px 0;
+ width: 100%;
+}
+
+.twocuadro{
+  width: 30%;
+  background: #24282B;
+  color: white;
+  height: 30%;
+  margin-top: 20px;
+  padding: 25px;
+}
+
+.twocuadro8{
+  background: #24282B;
+  color: white;
+  margin-top: 20px;
+  padding: 25px;
+  margin-bottom: 10px;
+  align-self: end;
+}
+
+
+
+.twocuadro h2{
+  margin-bottom: 30px;
+}
+
+.ofertas h2{
+  margin-bottom: 15px;
+}
+
+.todora p{
+  margin-bottom: 30px;
+}
+
+/* CONTACTANOS */
+.todora{
+  padding: 40px;
+  margin-bottom: 20px;
+  background: rgb(239, 239,239);
+  width: 90%;
+  height: auto;
+  border: 1px solid #cdcbcb;
+}
+.ofertas{
+    width: 60%;
+    padding-left: 90px;
+    margin-right: 35px;
+}
+
+.buscador1{
+  background:#E8491D ;
+  padding: 10px;
+  border: none;
+  width: 72.5% ;
+  margin-top: 10px;
+  color: white;
+}
+
+.nombre{
+  width: 70%;
+  padding: 15px;
+  margin-bottom: 10px ;
+}
+
+.onecuadro1 h2{
+  margin-bottom: 20px;
+}
+.onecuadro1{
+  
+  width: 80%;
+  padding: 20px;
+
+}
+
+.nombre1{
+  width: 70%;
+  padding: 15px;
+  height: 80px;
+  margin-bottom: 10px ;
+}
+.imgmapa{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 20px;
+}
+
+/* -----------------------   */
+@media  screen and (max-width:600px) {
+  .vintaje{
+    margin-top: 10px;
+    width: 272px;
+    height: auto;
+  }
+  .imgmapa {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+    width: 400px;
+    margin-left: 20px;
+}
+
+  .encabezado{
+    background: #24282B;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 70px;
+    border-bottom: 5px solid #1293D4;
+    font-size: 10px;
+    
+  }
+  .title h1{
+    font-size: 40px;
+  }
+  .title p{
+    font-size: 15px;
+  }
+  .central {
+   display: flex;
+   flex-wrap: wrap;
+  }
+  .caja2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+  }
+  .login{
+    margin-right: 5px;
+  }
+
+  .onecuadro {
+    width: 55%;
+    padding-left: 0px;
+    margin-right: 35px;
+    font-size: 15px;
+}
+
+.twocuadro{
+  width: 61%;
+  background: #24282B;
+  color: white;
+  height: 30%;
+  margin-top: 32px;
+  padding: 15px;
+  font-size: 15px;
+  justify-content: center;
+}
+  
+.ofertas{
+  width: 60%;
+  padding-left: 0;
+  margin-right: 35px;
+  font-size: 10px;
+  
+}
+.todora{
+  padding: 20px;
+  margin-bottom: 20px;
+  background: rgb(239, 239,239);
+  width: 90%;
+  height: auto;
+  border: 1px solid #cdcbcb;
+}
+
+.buscador1{
+  background:#E8491D ;
+  padding: 10px;
+  border: none;
+  width:115% ;
+  margin-top: 10px;
+  color: white;
+}
+
+.nombre{
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px ;
+}
+
+.onecuadro1 h2{
+  margin-bottom: 20px;
+}
+
+
+.nombre1{
+  width: 100%;
+  padding: 15px;
+  height: 80px;
+  margin-bottom: 10px ;
+}
+
+.cuadros{
+  display: flex;
+  flex-direction: column;
+  padding: 60px 80px;
+  align-items: center;
+  text-align: center;
+}
+
+.imgmapa{
+  height: auto;
+  width: 400px;
+}
+.inferior {
+  display: flex;
+  flex-direction: column;
+  
+  margin: 30px;
+}
+}
+
+@media  screen and (max-width:1200px) {
+  .encabezado{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .cuadro p{
+    font-size: 15px;
+    margin: 10px;
+  }
+
+  .cuadro img{
+    width: 50%;
+    height: auto;
+  }
+
+  .cuadro h2{
+    font-size: 20px ;
+  }
+  .cuadros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .twocuadro{
+    width: 90%;
+    text-align: center;
+
+  }
+
+  .onecuadro{
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .todora{
+    padding: 20px;
+    width: 100%;
+  }
+
+  .ofertas{
+    width: 92%;
+    padding: 0px;
+    margin: 0px;
+  }
+
+.imgmapa{
+  width: 90%;
+  text-align: center;
+}
+
+.onecuadro1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+  
+}
